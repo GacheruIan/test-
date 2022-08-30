@@ -1,14 +1,13 @@
 *{
     margin: 0;
     padding: 0;
+
 }
-/* body {
-    background-image: url("https://previews.123rf.com/images/kesu87/kesu871208/kesu87120800259/14730643-fruit-in-water-splash-over-white.jpg");
-   } */
-img{
-    opacity: 0.4;
-    margin-left: 5%;
+body{
+  overflow:scroll;
 }
+
+
 /* styling menu
 </body> icon */
 .main-section{
@@ -51,9 +50,97 @@ img{
 {
 margin-left: 37%;
 margin-top: 1%;
+
+
 }
 #herb-img
 {
-margin-left:33%;
+margin-left:31%;
 margin-top: 1%;
+}
+h1{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  margin-top: -2%;
+  margin-left: 25%;
+}
+
+.mid-section{
+  margin-left:7%;
+  margin-top: 6%;
+
+}
+
+h4{
+  font-family: 'Freehand', cursive;
+  color: #F66372;
+  font-weight: 400;
+  font-size: 60px;
+  font-style: normal;
+}
+h2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+  
+}
+p{
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  color: black;
+ 
+}
+#submit-area{
+  margin-left: 24.5%;
+  margin-top: 0%;
+  padding: 10px;
+  font-size: 17px;
+  width: 100%;
+  padding: 10px;
+  
+}
+#submit-area > input{
+  width: 20%;
+  padding: 10px;
+}
+#search-icon{
+  width: 3%;
+  padding: 10px;
+}
+.social-m-icons{
+  display: flex;
+  flex-direction: column;
+  margin-left:7%;
+  margin-top: 2%;
+  display: flex;
+  
+}
+
+/* Twitter */
+.fa-twitter {
+  color: black;
+}
+
+/* Instagram */
+.fa-instagram {
+  color: black;
+}
+
+/* linkedin" */
+.fa-linkedin{
+  color: black;
+}
+/* facebook */
+.fa-facebook{
+  color: black;
+}
+ 
+#bottom-img{
+  margin-top: 8%;
+  margin-left: 6.9%;
+
+  
 }

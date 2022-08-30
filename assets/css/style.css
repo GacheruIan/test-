@@ -138,8 +138,83 @@ p{
 }
  
 #bottom-img{
-  margin-top: 8%;
+  margin-top: 9.5%;
   margin-left: 6.9%;
-
   
 }
+ 
+
+/* from flat */
+.image-section{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+ margin-top: 2%;
+}
+.image-section1{
+  display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+ margin-top: 2%;
+
+}
+.image-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.image-card {
+  width: 300px;
+  border: 1px solid #00000020;
+  border-radius: 2px;
+  text-align: left;
+  background-color: white;
+}
+
+.image {
+  width: 300px;
+  /* border: 1px solid black; */
+}
+
+.title {
+  text-align: left;
+  padding: 15px 10px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #000000dd;
+}
+
+.likes-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.likes {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.like-button {
+  color: rgb(255, 127, 80);
+  font-size: 1.5rem;
+  border: none;
+  background: none;
+  transition: color 300ms;
+  cursor: pointer;
+}
+
+.like-button:hover {
+  color: rgb(241, 71, 19);
+}
+
+.like-button:active {
+  color: rgb(253, 159, 124);
+}
+
+.like-button:focus {
+  outline: none;
+}
+

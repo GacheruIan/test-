@@ -22,24 +22,11 @@ fetch("http://localhost:3000/image3")
 .then(res => res.json())
 .then(function three(obj){
 const storeimggg = document.querySelector('.image3') .src = obj[0].image2
-console.log(obj[0].image2)
 
 })
 
-    // like to increment likes
-    var likes = 0;
-    var liked = false;
-    //capture input from html
-    button = document.getElementById("like-button");
-    reflect = document.getElementById("like-count");
-
-    function show() {
-    reflect.innerHTML = likes + " Likes";
-}
-    button.onclick = function() {
-
-    if (liked !== true){
-        likes++;
-    }
-    show();
-  }
+// feed-back form
+const myForm = document.getElementById("form").addEventListener('submit', function(event){
+event.preventDefault()
+alert("Thanks for your the feedback pal!")
+})

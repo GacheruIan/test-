@@ -1,19 +1,27 @@
 {
-  "posts": [
+  "image1": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "title": "Tequilla-sunrise",
+      "likes": 0,
+      "image0": "cTailsImg/Tequila-Sunrise.webp"
     }
   ],
-  "comments": [
+  "image2": [
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "title": "drymartini",
+      "likes": 0,
+      "image1": "cTailsImg/drymartini.jpg"
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "image3": [
+    {
+      "id": 2,
+      "title": " Corpse Reviver",
+      "likes": 0,
+      "image2": "cTailsImg/corpsereviver.webp"
+    }
+  ]
+  
 }

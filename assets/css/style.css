@@ -4,14 +4,15 @@
 
 }
 body{
-  overflow:scroll;
+  overflow:scroll; 
 }
+
 
 .main-section{
     display: flex;
     flex-direction: row;
 }
-.container {
+.containerUp {
   display: inline-block;
   cursor: pointer;
   margin-left: 7%;
@@ -135,7 +136,7 @@ p{
 }
  
 #bottom-img{
-  margin-top: 9.5%;
+  margin-top: 2%;
   margin-left: 6.9%;
   
 }
@@ -145,7 +146,7 @@ p{
  flex-direction: row;
  justify-content: space-evenly;
  margin-top: 2%;
- margin-left: -4%;
+ margin-left: -2%;
 }
 .image-section1{
   display: flex;
@@ -158,6 +159,8 @@ p{
   width: 100%;
   display: flex;
   justify-content: center;
+  margin-left: 5%;
+
 }
 
 .image-card {
@@ -235,12 +238,17 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: green;
 }
 
 /* Add a background color and some padding around the form */
 .container {
   border-radius: 5px;
-  background-color: rgb(198, 228, 198);
+  background-color: rgb(94, 124, 94);
   padding: 10px;
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 18%;
+  margin-top: 2%;
+
 }

@@ -10,7 +10,6 @@ function myFunction(x) {
   
  })
 
-
 fetch("http://localhost:3000/image2")
 .then(res => res.json())
 .then(function two(object){

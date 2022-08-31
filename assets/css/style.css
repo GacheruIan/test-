@@ -148,6 +148,7 @@ p{
  flex-direction: row;
  justify-content: space-evenly;
  margin-top: 2%;
+ margin-left: -4%;
 }
 .image-section1{
   display: flex;

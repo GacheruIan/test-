@@ -1,14 +1,14 @@
 function myFunction(x) {
-    x.classList.toggle("change");
-  }
+  x.classList.toggle("change");
+}
 
 
-  fetch("http://localhost:3000/image1/")
-  .then(res => res.json())
- .then(function one(data){
-  const storeimg = document.querySelector('.image1').src = data[0].image0
-  
- })
+fetch("http://localhost:3000/image1/")
+.then(res => res.json())
+.then(function one(data){
+const storeimg = document.querySelector('.image1').src = data[0].image0
+
+})
 
 fetch("http://localhost:3000/image2")
 .then(res => res.json())

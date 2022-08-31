@@ -175,7 +175,6 @@ p{
   width: 300px;
  
 }
-
 .title {
   text-align: left;
   padding: 15px 10px;
@@ -183,7 +182,6 @@ p{
   font-weight: 600;
   color: #000000dd;
 }
-
 .likes-section {
   display: flex;
   justify-content: space-between;

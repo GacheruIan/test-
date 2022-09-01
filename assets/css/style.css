@@ -186,7 +186,6 @@ background: none;
 transition: color 300ms;
 cursor: pointer;
 }
-
 .like-button:hover {
 color: black;
 }

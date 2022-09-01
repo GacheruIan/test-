@@ -1,5 +1,6 @@
 
 By Ian Gacheru
+
 It is a description of my project.
 
 Table of Content
@@ -12,15 +13,18 @@ Table of Content
 
 Description
 This is a website that shows a list of cocktail brands and a user can view and like the cocktail of his/her choice, the is also a form that allows users to give back a feedback on the cocktails of their liking.
+
 Installation
 Requirements
     • Either a computer,phone,tablet or an Ipad
     • An access to the Internet
     • Fork and clone in the repository above, run json-server db.json to launch the application programming interface.
+    
 Technology Used
     • HTML - which was used to build the structure of the pages.
     • CSS - which was used to style the pages .
     • JAVASCRIPT- which was used to add events to the browser, bring life to the website and also different js files used to fetch data from an api and display the data
+    
 Reference
     • Materialize CSS.
     • W3 Schools.

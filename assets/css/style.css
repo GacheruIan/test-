@@ -3,11 +3,30 @@
     padding: 0;
 
 }
+<<<<<<< HEAD
 body{
   overflow:scroll; 
   
+=======
+body {
+	background: linear-gradient(-45deg, #ee7752, #9c1247, #04526e, #036e55);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+>>>>>>> 21df5632493be898f6a84e42531a2e65a5a6970f
 }
 
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
 
 .main-section{
     display: flex;
@@ -108,6 +127,7 @@ p{
   width: 3%;
   padding: 10px;
 }
+<<<<<<< HEAD
 .social-m-icons{
   display: flex;
   flex-direction: column;
@@ -141,6 +161,10 @@ p{
   margin-left: 6.9%;
   
 }
+=======
+
+
+>>>>>>> 21df5632493be898f6a84e42531a2e65a5a6970f
  
 .image-section{
  display: flex;
@@ -190,13 +214,13 @@ p{
   padding: 0 10px;
 }
 
-.likes {
+.likes,.likes1,.likes2 {
   font-size: 0.9rem;
   font-weight: 600;
 }
 
-.like-button {
-  color: rgb(255, 127, 80);
+.like-button, .like-button1, .like-button2{
+  color: rgb(194, 62, 14);
   font-size: 1.5rem;
   border: none;
   background: none;
@@ -205,7 +229,13 @@ p{
 }
 
 .like-button:hover {
-  color: rgb(241, 71, 19);
+  color: black;
+}
+.like-button1:hover {
+  color: black;
+}
+.like-button2:hover {
+  color: black;
 }
 
 .like-button:active {
@@ -215,6 +245,7 @@ p{
 .like-button:focus {
   outline: none;
 }
+
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
   width: 100%; /* Full width */
@@ -239,12 +270,17 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  background-color: green;
+  background:white;
+  color:black
 }
 
 /* Add a background color and some padding around the form */
 .container {
+<<<<<<< HEAD
   background: rgb(119, 116, 110);
+=======
+  background: rgb(53, 51, 47);
+>>>>>>> 21df5632493be898f6a84e42531a2e65a5a6970f
   width: 20%;
   border-radius: 5px;
   padding: 2px;
@@ -254,6 +290,7 @@ input[type=submit]:hover {
   margin-top: 2%;
 
 }
+<<<<<<< HEAD
 /* footer section */
   
 #footer {
@@ -276,6 +313,41 @@ input[type=submit]:hover {
   display: inline-block;
   margin-left: 50%;
   margin-top: 3;
+=======
+label{
+  color: white;
+}
+/* footer section */
+
+
+.footerarea{
+  margin-top: 10%;
+}
+#footer {
+  width: 100%;
+  display: inline-block;
+  background: rgb(27, 27, 25);
+  color:#dbdbdb;
+}
+
+#footer ul li a{color:#fff;}
+/* .foot-col-1 {
+  display: inline-block;
+  margin-left: 15%;
+  
+} */
+
+.foot-col-4 {
+  display: inline-block;
+  margin-left: 70%;
+  margin-top: -60%;
+  padding-top: -30%;
+}
+
+.foot-col-1{
+  margin-left: 15%;
+  margin-top: -3%;
+>>>>>>> 21df5632493be898f6a84e42531a2e65a5a6970f
 }
 
 @media (max-width:1085px) {
@@ -303,4 +375,36 @@ ul {
  }
 ul li a{
   text-decoration: none;
+<<<<<<< HEAD
 }
+=======
+}
+.social-media-icons{
+  display: flex;
+  flex-direction: column;
+  margin-left:15%;
+  margin-top: 2%;
+  display: flex;
+  
+}
+
+/* Twitter */
+.fa-twitter {
+  color:white;
+}
+
+/* Instagram */
+.fa-instagram {
+  color: white;
+}
+/* facebook */
+.fa-facebook{
+  color: white;
+}
+ 
+
+/* linkedin" */
+.fa-linkedin{
+  color: white;
+}
+>>>>>>> 21df5632493be898f6a84e42531a2e65a5a6970f

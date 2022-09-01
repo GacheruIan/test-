@@ -64,6 +64,15 @@ fetch("http://localhost:3000/image4")
 .then(function four(obj4){
     const storeimg4 = document.querySelector('.image4').src = obj4[0].image4
     const storeText4= document.querySelector('#h34').innerHTML = obj4[0].title
+    let likes = 0;
+document.querySelector("#like-button4").addEventListener("click", () =>{
+    likes += 1;
+    renderLikes();
+})
+function renderLikes() {
+    document.querySelector("#like-count4").textContent = `${likes} likes`;
+}
+    
 })
 
 
@@ -72,6 +81,14 @@ fetch("http://localhost:3000/image5")
 .then(function five(obj5){
     const storeimg5 = document.querySelector('.image5').src = obj5[0].image5
     const storeText5= document.querySelector('#h35').innerHTML = obj5[0].title
+    let likes = 0;
+document.querySelector("#like-button5").addEventListener("click", () =>{
+    likes += 1;
+    renderLikes();
+})
+function renderLikes() {
+    document.querySelector("#like-count5").textContent = `${likes} likes`;
+}
    
 })
 
@@ -79,11 +96,20 @@ fetch("http://localhost:3000/image6")
 .then(res => res.json())
 .then(function five(dat){
 const image6 = document.querySelector('.image6').src = dat[0].image6
-const title = document.querySelector('#h36').innerHTML =
-console.log(title)
-    console.log(dat[0].title)
-
+const title = document.querySelector('#h36').innerHTML = dat[0].title
+let likes = 0;
+document.querySelector("#like-button6").addEventListener("click", () =>{
+    likes += 1;
+    renderLikes();
 })
+function renderLikes() {
+    document.querySelector("#like-count6").textContent = `${likes} likes`;
+}
+   
+})
+
+
+
 
 
 

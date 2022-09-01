@@ -79,7 +79,7 @@ fetch("http://localhost:3000/image6")
 .then(res => res.json())
 .then(function five(dat){
 const image6 = document.querySelector('.image6').src = dat[0].image6
-const title = document.querySelector('#h36').innerHTML = dat[0].title
+const title = document.querySelector('#h36').innerHTML =
 console.log(title)
     console.log(dat[0].title)
 
@@ -94,5 +94,3 @@ event.preventDefault()
 event.target.reset()
 alert(`Thanks for your the feedback pal`)
 })
-
-

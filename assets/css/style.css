@@ -81,7 +81,13 @@ margin-left: 25%;
 .mid-section{
 margin-left:7%;
 margin-top: 2%;
+}
 
+.mid-section2{
+  margin-left:-2%;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
 }
 
 h4{
@@ -137,7 +143,6 @@ display: flex;
 flex-direction: row;
 justify-content: space-evenly;
 margin-top: 2%;
-
 }
 .image-container {
 width: 100%;
@@ -178,7 +183,7 @@ font-size: 0.9rem;
 font-weight: 600;
 }
 
-.like-button, .like-button1, .like-button2{
+.like-button, .like-button1, .like-button2, .like-button2, .like-button3, .like-button4, .like-button5, .like-button6{
 color: rgb(194, 62, 14);
 font-size: 1.5rem;
 border: none;
@@ -186,6 +191,7 @@ background: none;
 transition: color 300ms;
 cursor: pointer;
 }
+
 .like-button:hover {
 color: black;
 }
@@ -240,8 +246,8 @@ border-radius: 5px;
 padding: 2px;
 display: inline-block;
 cursor: pointer;
-margin-left: 35%;
-margin-top: 2%;
+margin-left: 40%;
+margin-top:8%;
 
 }
 label{

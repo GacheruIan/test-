@@ -1,65 +1,60 @@
 *{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 
 }
-<<<<<<< HEAD
-body{
-  overflow:scroll; 
-  
-=======
 body {
-	background: linear-gradient(-45deg, #ee7752, #9c1247, #04526e, #036e55);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-	height: 100vh;
->>>>>>> 21df5632493be898f6a84e42531a2e65a5a6970f
+background: linear-gradient(-45deg, #ee7752, #9c1247, #04526e, #036e55);
+background-size: 400% 400%;
+animation: gradient 15s ease infinite;
+height: 100vh;
+
 }
 
 @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+0% {
+  background-position: 0% 50%;
+}
+50% {
+  background-position: 100% 50%;
+}
+100% {
+  background-position: 0% 50%;
+}
 }
 
 .main-section{
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 .containerUp {
-  display: inline-block;
-  cursor: pointer;
-  margin-left: 7%;
-  margin-top: 2%;
+display: inline-block;
+cursor: pointer;
+margin-left: 7%;
+margin-top: 2%;
 
 }
 
 .bar1, .bar2, .bar3 {
-  width: 35px;
-  height: 5px;
-  background-color: #333;
-  margin: 6px 0;
-  transition: 0.4s;
-  margin-top:12%;
- 
+width: 35px;
+height: 5px;
+background-color: #333;
+margin: 6px 0;
+transition: 0.4s;
+margin-top:12%;
+
 }
 
 .change .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-  transform: rotate(-45deg) translate(-9px, 6px);
+-webkit-transform: rotate(-45deg) translate(-9px, 6px);
+transform: rotate(-45deg) translate(-9px, 6px);
 }
 
 .change .bar2 {opacity: 0;}
 
 .change .bar3 {
-  -webkit-transform: rotate(45deg) translate(-8px, -8px);
-  transform: rotate(45deg) translate(-8px, -8px);
+-webkit-transform: rotate(45deg) translate(-8px, -8px);
+transform: rotate(45deg) translate(-8px, -8px);
 }
 /* end styling menu icon */
 
@@ -76,335 +71,266 @@ margin-left:31%;
 margin-top: 1%;
 }
 h1{
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-  font-size: 30px;
-  margin-top: -2%;
-  margin-left: 25%;
+font-family: 'Poppins', sans-serif;
+font-weight: 600;
+font-size: 30px;
+margin-top: -2%;
+margin-left: 25%;
 }
 
 .mid-section{
-  margin-left:7%;
-  margin-top: 2%;
+margin-left:7%;
+margin-top: 2%;
 
 }
 
 h4{
-  font-family: 'Freehand', cursive;
-  color: #F66372;
-  font-weight: 400;
-  font-size: 60px;
-  font-style: normal;
+font-family: 'Freehand', cursive;
+color: #F66372;
+font-weight: 400;
+font-size: 60px;
+font-style: normal;
 }
 h2{
-  font-family: 'Poppins', sans-serif;
-  font-weight: 800;
-  font-size: 30px;
-  
+font-family: 'Poppins', sans-serif;
+font-weight: 800;
+font-size: 30px;
+
 }
 p{
-  font-family: 'Raleway', sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 16px;
-  color: black;
- 
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 16px;
+color: black;
+
 }
 #submit-area{
-  margin-left: 24.5%;
-  margin-top: 0%;
-  padding: 10px;
-  font-size: 17px;
-  width: 100%;
-  padding: 10px;
-  
+margin-left: 24.5%;
+margin-top: 0%;
+padding: 10px;
+font-size: 17px;
+width: 100%;
+padding: 10px;
+
 }
 #submit-area > input{
-  width: 20%;
-  padding: 10px;
+width: 20%;
+padding: 10px;
 }
 #search-icon{
-  width: 3%;
-  padding: 10px;
-}
-<<<<<<< HEAD
-.social-m-icons{
-  display: flex;
-  flex-direction: column;
-  margin-left:7%;
-  margin-top: 2%;
-  display: flex;
-  
+width: 3%;
+padding: 10px;
 }
 
-/* Twitter */
-.fa-twitter {
-  color: white;
-}
-
-/* Instagram */
-.fa-instagram {
-  color: white;
-}
-
-/* linkedin" */
-.fa-linkedin{
-  color: white;
-}
-/* facebook */
-.fa-facebook{
-  color: white;
-}
- 
-#bottom-img{
-  margin-top: 2%;
-  margin-left: 6.9%;
-  
-}
-=======
 
 
->>>>>>> 21df5632493be898f6a84e42531a2e65a5a6970f
- 
 .image-section{
- display: flex;
- flex-direction: row;
- justify-content: space-evenly;
- margin-top: 2%;
- margin-left: -2%;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+margin-top: 2%;
+margin-left: -2%;
 }
 .image-section1{
-  display: flex;
- flex-direction: row;
- justify-content: space-evenly;
- margin-top: 2%;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+margin-top: 2%;
 
 }
 .image-container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin-left: 5%;
+width: 100%;
+display: flex;
+justify-content: center;
+margin-left: 5%;
 
 }
 
 .image-card {
-  width: 300px;
-  border: 1px solid #00000020;
-  border-radius: 2px;
-  text-align: left;
-  background-color: white;
+width: 300px;
+border: 1px solid #00000020;
+border-radius: 2px;
+text-align: left;
+background-color: white;
 }
 
 .image {
-  width: 300px;
- 
+width: 300px;
+
 }
 .title {
-  text-align: left;
-  padding: 15px 10px;
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: #000000dd;
+text-align: left;
+padding: 15px 10px;
+font-size: 0.9rem;
+font-weight: 600;
+color: #000000dd;
 }
 .likes-section {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 10px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 10px;
 }
 
 .likes,.likes1,.likes2 {
-  font-size: 0.9rem;
-  font-weight: 600;
+font-size: 0.9rem;
+font-weight: 600;
 }
 
 .like-button, .like-button1, .like-button2{
-  color: rgb(194, 62, 14);
-  font-size: 1.5rem;
-  border: none;
-  background: none;
-  transition: color 300ms;
-  cursor: pointer;
+color: rgb(194, 62, 14);
+font-size: 1.5rem;
+border: none;
+background: none;
+transition: color 300ms;
+cursor: pointer;
 }
 
 .like-button:hover {
-  color: black;
+color: black;
 }
 .like-button1:hover {
-  color: black;
+color: black;
 }
 .like-button2:hover {
-  color: black;
+color: black;
 }
 
 .like-button:active {
-  color: rgb(253, 159, 124);
+color: rgb(253, 159, 124);
 }
 
 .like-button:focus {
-  outline: none;
+outline: none;
 }
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+width: 100%; /* Full width */
+padding: 12px; /* Some padding */ 
+border: 1px solid #ccc; /* Gray border */
+border-radius: 4px; /* Rounded borders */
+box-sizing: border-box; /* Make sure that padding and width stays in place */
+margin-top: 6px; /* Add a top margin */
+margin-bottom: 16px; /* Bottom margin */
+resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-  background-color: black;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+background-color: black;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  background:white;
-  color:black
+background:white;
+color:black
 }
 
 /* Add a background color and some padding around the form */
 .container {
-<<<<<<< HEAD
-  background: rgb(119, 116, 110);
-=======
-  background: rgb(53, 51, 47);
->>>>>>> 21df5632493be898f6a84e42531a2e65a5a6970f
-  width: 20%;
-  border-radius: 5px;
-  padding: 2px;
-  display: inline-block;
-  cursor: pointer;
-  margin-left: 35%;
-  margin-top: 2%;
+background: rgb(53, 51, 47);
+width: 20%;
+border-radius: 5px;
+padding: 2px;
+display: inline-block;
+cursor: pointer;
+margin-left: 35%;
+margin-top: 2%;
 
 }
-<<<<<<< HEAD
-/* footer section */
-  
-#footer {
-  width: 100%;
-  display: inline-block;
-  margin: 0 auto;
-  background: rgb(27, 27, 25);
-  color:#dbdbdb;
-  margin-top: 10px;
-}
-
-#footer ul li a{color:#fff;}
-.foot-col-1 {
-  display: inline-block;
-  margin-left: 15%;
-  margin-top: 3%;
-}
-
-.foot-col-4 {
-  display: inline-block;
-  margin-left: 50%;
-  margin-top: 3;
-=======
 label{
-  color: white;
+color: white;
 }
 /* footer section */
 
 
 .footerarea{
-  margin-top: 10%;
+margin-top: 10%;
 }
 #footer {
-  width: 100%;
-  display: inline-block;
-  background: rgb(27, 27, 25);
-  color:#dbdbdb;
+width: 100%;
+display: inline-block;
+background: rgb(27, 27, 25);
+color:#dbdbdb;
 }
 
 #footer ul li a{color:#fff;}
 /* .foot-col-1 {
-  display: inline-block;
-  margin-left: 15%;
-  
+display: inline-block;
+margin-left: 15%;
+
 } */
 
 .foot-col-4 {
-  display: inline-block;
-  margin-left: 70%;
-  margin-top: -60%;
-  padding-top: -30%;
+display: inline-block;
+margin-left: 70%;
+margin-top: -60%;
+padding-top: -30%;
 }
 
 .foot-col-1{
-  margin-left: 15%;
-  margin-top: -3%;
->>>>>>> 21df5632493be898f6a84e42531a2e65a5a6970f
+margin-left: 15%;
+margin-top: -3%;
 }
 
 @media (max-width:1085px) {
-  .foot-col-1, .foot-col-4 {
-    display: block;
-    width: 90%;
-    margin: 0 auto;
-  }
-  .foot-col-2,
-  .foot-col-3 {
+.foot-col-1, .foot-col-4 {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+}
+.foot-col-2,
+.foot-col-3 {
 width:49%;
-  }
+}
 }
 
 @media (max-width:800px) {
-  .lh-footer, .mid-footer, .rh-footer {
-    display: block;
-    width: 90%;
-    margin: 0 auto;
-  }
+.lh-footer, .mid-footer, .rh-footer {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+}
 }
 
 ul {
-  list-style-type: none;
- }
-ul li a{
-  text-decoration: none;
-<<<<<<< HEAD
+list-style-type: none;
 }
-=======
+ul li a{
+text-decoration: none;
 }
 .social-media-icons{
-  display: flex;
-  flex-direction: column;
-  margin-left:15%;
-  margin-top: 2%;
-  display: flex;
-  
+display: flex;
+flex-direction: column;
+margin-left:15%;
+margin-top: 2%;
+display: flex;
+
 }
 
 /* Twitter */
 .fa-twitter {
-  color:white;
+color:white;
 }
 
 /* Instagram */
 .fa-instagram {
-  color: white;
+color: white;
 }
 /* facebook */
 .fa-facebook{
-  color: white;
+color: white;
 }
- 
+
 
 /* linkedin" */
 .fa-linkedin{
-  color: white;
+color: white;
 }
->>>>>>> 21df5632493be898f6a84e42531a2e65a5a6970f

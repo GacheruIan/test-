@@ -10,9 +10,9 @@
   "image2": [
     {
       "id": 2,
-      "title": "drymartini",
+      "title": "dry~martini",
       "likes": 0,
-      "image1": "cTailsImg/drymartini.jpg"
+      "image1": "cTailsImg/corpsereviver.webp"
     }
   ],
   "image3": [
@@ -20,7 +20,7 @@
       "id": 2,
       "title": " Corpse Reviver",
       "likes": 0,
-      "image2": "cTailsImg/corpsereviver.webp"
+      "image2": "cTailsImg/drymartini.jpg"
     }
   ]
   

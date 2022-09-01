@@ -3,11 +3,24 @@
     padding: 0;
 
 }
-body{
-  overflow:scroll; 
-  
+body {
+	background: linear-gradient(-45deg, #ee7752, #9c1247, #04526e, #036e55);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
 }
 
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
 
 .main-section{
     display: flex;
@@ -159,13 +172,13 @@ p{
   padding: 0 10px;
 }
 
-.likes {
+.likes,.likes1,.likes2 {
   font-size: 0.9rem;
   font-weight: 600;
 }
 
-.like-button {
-  color: rgb(255, 127, 80);
+.like-button, .like-button1, .like-button2{
+  color: rgb(194, 62, 14);
   font-size: 1.5rem;
   border: none;
   background: none;
@@ -174,7 +187,13 @@ p{
 }
 
 .like-button:hover {
-  color: rgb(241, 71, 19);
+  color: black;
+}
+.like-button1:hover {
+  color: black;
+}
+.like-button2:hover {
+  color: black;
 }
 
 .like-button:active {
@@ -209,12 +228,13 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  background-color: green;
+  background:white;
+  color:black
 }
 
 /* Add a background color and some padding around the form */
 .container {
-  background: rgb(119, 116, 110);
+  background: rgb(53, 51, 47);
   width: 20%;
   border-radius: 5px;
   padding: 2px;
@@ -223,6 +243,9 @@ input[type=submit]:hover {
   margin-left: 35%;
   margin-top: 2%;
 
+}
+label{
+  color: white;
 }
 /* footer section */
 

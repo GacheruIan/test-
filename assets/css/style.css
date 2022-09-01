@@ -254,12 +254,7 @@ color: white;
 .footerarea{
 margin-top: 10%;
 }
-#footer {
-width: 100%;
-display: inline-block;
-background: rgb(27, 27, 25);
-color:#dbdbdb;
-}
+
 
 #footer ul li a{color:#fff;}
 /* .foot-col-1 {

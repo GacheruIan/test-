@@ -1,42 +1,63 @@
+a)      Cocktail Api.
 
-By Ian Gacheru
-It is a description of my project.
+	By Ian Gacheru
+	
 
-Table of Content
-    • Description
-    • Installation Requirement
-    • Technology Used
-    • Reference
-    • Licence
-    • Authors Info
+ b)     Table of Content
+      
+    •  [Description](#description)
+    •  [Installation Requirement](#Installation)
+    •  [Technology Used](#technology-used)
+    •  [Reference](#reference)
+    •  [License](#license)
+    •  [Authors Info](#author-Info)
+    
+ c) **Description**
+     
+This is a website that shows a list of cocktail brands and a user can view and like the cocktail of his/her choice, there is also a form that allows users to give back a feedback on the cocktails of their liking.
 
-Description
-This is a website that shows a list of cocktail brands and a user can view and like the cocktail of his/her choice, the is also a form that allows users to give back a feedback on the cocktails of their liking.
-Installation
-Requirements
-    • Either a computer,phone,tablet or an Ipad
-    • An access to the Internet
-    • Fork and clone in the repository above, run json-server db.json to launch the application programming interface.
-Technology Used
-    • HTML - which was used to build the structure of the pages.
-    • CSS - which was used to style the pages .
-    • JAVASCRIPT- which was used to add events to the browser, bring life to the website and also different js files used to fetch data from an api and display the data
-Reference
-    • Materialize CSS.
-    • W3 Schools.
+ d) **Installation~Requirements**
 
-Go Back to the top
+* Either a computer,phone,tablet.
 
-Licence
+* An access to the Internet.
+
+* Fork and clone in the repository above, run json-server db.json to launch the application programming interface.
+
+ e) **Installation Process
+    Technology Used:-**
+
+    •  HTML - which was used to build the structure of the pages.
+      
+    •  JavaScript – Used to add functionality to the web page.
+      
+    •  CSS - which was used to style the pages.
+      
+f) **Reference**
+
+* Tutorials-point
+* MDN JavaScript
+* W3 Schools
+
+
+
+g) **** License****
 
 MIT License
-Copyright (c) [2022] [IAN GACHERU]
-Permission is hereby granted, free of charge, to any person obtaining a copy of this web application and associated documentation files  deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the web application, and to permit persons to whom the web application is furnished to do so, subject to the following conditions:
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the web app.
-THE WEBAPP. IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANT-ABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON INFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-Go Back to the top
-Authors Info
-Slack Profile - GacheruIan
-Linked -GacheruIan
-Go Back to the top
+Copyright (c) [2022] [Ian Gacheru]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this application and associated documentation files.
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+
+
+h) **Authors Info**
+
+
+Linked – [Ian Gacheru - https://www.linkedin.com/in/ian-kibui-b12121160/)
+
+[Go Back to the top](#portfolio)

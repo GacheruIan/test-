@@ -59,6 +59,7 @@ function renderLikes() {
 // feed-back form
 const myForm = document.getElementById("form").addEventListener('submit', function(event){
 event.preventDefault()
+event.target.reset()
 alert(`Thanks for your the feedback pal`)
 })
 

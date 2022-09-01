@@ -5,6 +5,7 @@
 }
 body{
   overflow:scroll; 
+  
 }
 
 
@@ -65,7 +66,7 @@ h1{
 
 .mid-section{
   margin-left:7%;
-  margin-top: 6%;
+  margin-top: 2%;
 
 }
 
@@ -107,39 +108,8 @@ p{
   width: 3%;
   padding: 10px;
 }
-.social-m-icons{
-  display: flex;
-  flex-direction: column;
-  margin-left:7%;
-  margin-top: 2%;
-  display: flex;
-  
-}
 
-/* Twitter */
-.fa-twitter {
-  color: black;
-}
 
-/* Instagram */
-.fa-instagram {
-  color: black;
-}
-
-/* linkedin" */
-.fa-linkedin{
-  color: black;
-}
-/* facebook */
-.fa-facebook{
-  color: black;
-}
- 
-#bottom-img{
-  margin-top: 2%;
-  margin-left: 6.9%;
-  
-}
  
 .image-section{
  display: flex;
@@ -214,6 +184,7 @@ p{
 .like-button:focus {
   outline: none;
 }
+
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
   width: 100%; /* Full width */
@@ -228,7 +199,7 @@ input[type=text], select, textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-  background-color: #04AA6D;
+  background-color: black;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -243,12 +214,99 @@ input[type=submit]:hover {
 
 /* Add a background color and some padding around the form */
 .container {
+  background: rgb(119, 116, 110);
+  width: 20%;
   border-radius: 5px;
-  background-color: rgb(94, 124, 94);
-  padding: 10px;
+  padding: 2px;
   display: inline-block;
   cursor: pointer;
-  margin-left: 16%;
+  margin-left: 35%;
   margin-top: 2%;
 
+}
+/* footer section */
+
+
+.footerarea{
+  margin-top: 10%;
+}
+#footer {
+  width: 100%;
+  display: inline-block;
+  background: rgb(27, 27, 25);
+  color:#dbdbdb;
+}
+
+#footer ul li a{color:#fff;}
+/* .foot-col-1 {
+  display: inline-block;
+  margin-left: 15%;
+  
+} */
+
+.foot-col-4 {
+  display: inline-block;
+  margin-left: 70%;
+  margin-top: -60%;
+  padding-top: -30%;
+}
+
+.foot-col-1{
+  margin-left: 15%;
+  margin-top: -3%;
+}
+
+@media (max-width:1085px) {
+  .foot-col-1, .foot-col-4 {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .foot-col-2,
+  .foot-col-3 {
+width:49%;
+  }
+}
+
+@media (max-width:800px) {
+  .lh-footer, .mid-footer, .rh-footer {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+ul {
+  list-style-type: none;
+ }
+ul li a{
+  text-decoration: none;
+}
+.social-media-icons{
+  display: flex;
+  flex-direction: column;
+  margin-left:15%;
+  margin-top: 2%;
+  display: flex;
+  
+}
+
+/* Twitter */
+.fa-twitter {
+  color:white;
+}
+
+/* Instagram */
+.fa-instagram {
+  color: white;
+}
+/* facebook */
+.fa-facebook{
+  color: white;
+}
+ 
+
+/* linkedin" */
+.fa-linkedin{
+  color: white;
 }

@@ -2,7 +2,7 @@
   "image1": [
     {
       "id": 1,
-      "title": "Tequilla-sunrise",
+      "title": "Tequilla-sunrise.",
       "likes": 0,
       "image0": "cTailsImg/Tequila-Sunrise.webp"
     }
@@ -10,7 +10,7 @@
   "image2": [
     {
       "id": 2,
-      "title": "dry~martini",
+      "title": "Dry~martini.",
       "likes": 0,
       "image1": "cTailsImg/corpsereviver.webp"
     }
@@ -18,10 +18,35 @@
   "image3": [
     {
       "id": 2,
-      "title": " Corpse Reviver",
-      "likes": 0,
+      "title": " Corpse~reviver.",
+      "likes": 0, 
       "image2": "cTailsImg/drymartini.jpg"
     }
+  ],
+  "image4": [
+    {
+      "id": 4,
+      "title": "Margarita.",
+      "likes": 0,
+      "image4": "cTailsImg/margarita.jpg"
+    }
+  ],
+  "image5": [
+    {
+      "id": 5,
+      "title": "Negroni.",
+      "likes": 0,
+      "image5": "cTailsImg/negroni.webp"
+    }
+  ],
+  "image6": [
+    {
+      "id": 2,
+      "title": "Espresso~martini.",
+      "likes": 0,
+      "image6": "cTailsImg/espressomartini.jpg"
+    }
   ]
+  
   
 }

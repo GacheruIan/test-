@@ -269,7 +269,7 @@ color: white;
 
 
 .footerarea{
-margin-top: 10%;
+margin-top: 12%;
 }
 
 
@@ -347,4 +347,17 @@ color: white;
 color: white;
 }
 
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+::selection{
+  color: #fff;
+  background: #664AFF;
+}
+.wrapper{
+  max-width: 450px;
+  margin: 150px auto;
+  margin-top: -132%;
+  margin-left: 25%;
+}
 

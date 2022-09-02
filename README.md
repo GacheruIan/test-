@@ -22,7 +22,7 @@ This is a website that shows a list of cocktail brands and a user can view and l
 
 * An access to the Internet.
 
-* Fork and clone in the repository above, run json-server db.json to launch the application programming interface.
+* Fork and clone in the repository above, run *json-server db.json / json-server --watch db.json* to launch the application programming interface.
 
  e) **Installation Process
     Technology Used:-**

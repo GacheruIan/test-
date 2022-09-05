@@ -8,6 +8,7 @@ a)      Cocktail Api.
     •  [Description](#description)
     •  [Installation Requirement](#Installation)
     •  [Technology Used](#technology-used)
+    •  [Project Preview]
     •  [Reference](#reference)
     •  [License](#license)
     •  [Authors Info](#author-Info)
@@ -24,16 +25,21 @@ This is a website that shows a list of cocktail brands and a user can view and l
 
 * Fork and clone in the repository above, run *json-server db.json / json-server --watch db.json* to launch the application programming interface.
 
- e) **Installation Process
+ e) **Installation Process**
     Technology Used:-**
 
     •  HTML - which was used to build the structure of the pages.
       
     •  JavaScript – Used to add functionality to the web page.
       
-    •  CSS - which was used to style the pages.
+    •  CSS - which was used to style the pages. 
+
+f) **Project Preview** <br>
+   <img src = "assets/img/Group 1.png" width="400px" height="400px">
+    
+   
       
-f) **Reference**
+g) **Reference**
 
 * Tutorials-point
 * MDN JavaScript
@@ -41,7 +47,7 @@ f) **Reference**
 
 
 
-g) **** License****
+h) **** License****
 
 MIT License
 
@@ -55,7 +61,7 @@ copies or substantial portions of the Software.
 
 
 
-h) **Authors Info**
+i) **Authors Info**
 
 
 Linked – [Ian Gacheru - https://www.linkedin.com/in/ian-kibui-b12121160/)
